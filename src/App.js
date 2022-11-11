@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { SwapWidget } from "@uniswap/widgets";
+import "@uniswap/widgets/fonts.css";
+const alchemyRPC =
+  "https://polygon-mainnet.g.alchemy.com/v2/CtHqiL3aNzpaAZKwY2aMl3s0ArBkcHpw";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Uniswap">
+      <SwapWidget jsonRpcEndpoint={alchemyRPC} />
     </div>
   );
 }
