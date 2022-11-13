@@ -9,16 +9,17 @@ function App() {
     secondary: "black",
     interactive: "#f7f7f7",
     container: "#F7F6F2",
-    module: "#707070",
-    accent: "#0A0708",
+    module: "#DCDCDC",
+    accent: "#DD3E3E",
     outline: "black",
-    dialog: "#000",
-    fontFamily: "Josefin Sans",
+    dialog: "#F7F6F2",
     borderRadius: 0.0,
   };
+
+  const WBTC = '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'
   return (
     <div className="flex flex-row justify-center items-center mt-[40px]">
-      <div className="Uniswap border-2 border-black box_back ">
+      <div className="Uniswap border-2 border-black box_back">
         <SwapWidget jsonRpcEndpoint={alchemyRPC} theme={retro} />
       </div>
     </div>
