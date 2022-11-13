@@ -9,7 +9,7 @@ function App() {
     secondary: "black",
     interactive: "#f7f7f7",
     container: "#F7F6F2",
-    module: "#696969",
+    module: "#707070",
     accent: "#0A0708",
     outline: "black",
     dialog: "#000",
